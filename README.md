@@ -1,5 +1,4 @@
-# Web-Dev-Lesson-2
-Bootstrap + Html Elements
+# Web-Dev-Lesson-2 : Bootstrap + Html Elements
 
 # Homework Review
 
