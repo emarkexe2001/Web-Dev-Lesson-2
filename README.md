@@ -17,9 +17,9 @@ A line break is a seperation of text through the creation of a new line, we can 
 
 We can accomplish this through the use of two different HTML tags
 
-<br> - Break tag - Seperates the line where the tag is used - has no ending tags.
+Break tag - Seperates the line where the tag is used - has no ending tags.
 
-<pre> - Pre tag - Keeps the formatting for the text exactly the same including line breaks and spaces.
+Pre tag - Keeps the formatting for the text exactly the same including line breaks and spaces.
 
 # Break Tag (<br>) Example
 
