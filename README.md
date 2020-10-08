@@ -37,10 +37,25 @@ Bootstrap tutorial on getting started with Bootstrap 4: https://www.w3schools.co
 
 We need a few things to set up our HTML code to use Bootstrap
 
-- 
--
--
--
+- Html5 Document - Bootstrap only works with HTML5 
+- Link ref to Bootstrap's style sheet
+- Script source for JQuery
+- Script source for Popper
+- Script source for Bootstrap
+
+```html
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.min.js/"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+```
+Put the meta charset, meta name, link rel, script sources inside the head of your html document.
 
 # Div and div classes
 
@@ -124,6 +139,73 @@ Pre tag - Keeps the formatting for the text exactly the same including line brea
     </body>
 </html>
 ```
+
+# Table 
+
+Creating tables in HTML requires a few tags
+
+table class (Bootstrap) - 
+
+(table) - 
+
+(thead) - Contains the metadata for a table
+
+(th) - Creates the headings for a table
+
+(tbody) - The main body of the table
+
+(tr) - Creates a row of data in the table
+
+```html
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.min.js/"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Table Example</h2>
+            <p>This is a basic table example using the .table class</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Joe</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Loe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                        <td>Roe</td>
+                        <td>markRoe@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+```
+
 
 # Example of Bootstrap code
 
