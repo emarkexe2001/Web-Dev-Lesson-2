@@ -1,7 +1,7 @@
 # Web-Dev-Lesson-2
 Bootstrap + Html Elements
 
-# Homework 
+# Homework Review
 
 Review of last week's homework - create a simple web page using html, css and javascript.
 
@@ -9,7 +9,37 @@ Review of last week's homework - create a simple web page using html, css and ja
 
 What is Bootstrap?
 
-Bootstrap is.......
+Bootstrap is a CSS framework used to create responsive and mobile-first websites.
+
+Latest version of Bootstrap is Bootstrap 4.
+
+Requires a containing element to wrap site contents.
+
+Two container classes we can use to do that
+
+.container 
+
+```html
+        <div class="container">
+            <h2>Testing One Two</h2>
+        </div>
+```
+
+.container-fluid
+```html
+     <div class="container-fluid">
+            <h2>Testing One Two</h2>
+        </div>
+```
+
+# Setting up Bootstrap 
+
+Bootstrap tutorial on getting started with Bootstrap 4: https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+
+We need a few things to set up our HTML code to use Bootstrap 
+
+# Div and div classes
+
 
 # Line breaks in html 
 
@@ -46,5 +76,28 @@ Pre tag - Keeps the formatting for the text exactly the same including line brea
 </html>
 ```
 
-Example of Bootstrap code
+# Example of Bootstrap code
+
+```html
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Bootstrap 4 Lesson</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Welcome to Bootstrap</h1>
+            <p>This is some Bootstrap code</p>
+        </div>
+    </body>
+</html>
+```
+
 
