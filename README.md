@@ -21,7 +21,7 @@ Break tag - Seperates the line where the tag is used - has no ending tags.
 
 Pre tag - Keeps the formatting for the text exactly the same including line breaks and spaces.
 
-# Break Tag (<br>) Example
+# Break Tag (br) Example
 
 ```html
 <html>
@@ -32,7 +32,7 @@ Pre tag - Keeps the formatting for the text exactly the same including line brea
 </html>
 ```
 
-# Pre Tag (<pre>) Example
+# Pre Tag (pre) Example
 
 ```html
 <html>
