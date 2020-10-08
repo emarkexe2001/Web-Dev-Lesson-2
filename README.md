@@ -40,7 +40,52 @@ We need a few things to set up our HTML code to use Bootstrap
 
 # Div and div classes
 
+What is a div tag?
 
+div is a tag that we use to define a section / division in HTML
+
+Acts as a container for html elements to be styled in CSS and manupulated in JavaScript
+
+Styled using class or id tags.
+
+class tag is used to point to css elements.
+
+Example of a class tag 
+
+```html
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+</body>
+</html>
+```
+    
 # Line breaks in html 
 
 A line break is a seperation of text through the creation of a new line, we can use this to format text such as address lines to create a single text with a text on each new line.
