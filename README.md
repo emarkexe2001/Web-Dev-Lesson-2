@@ -35,7 +35,12 @@ Two container classes we can use to do that
 
 Bootstrap tutorial on getting started with Bootstrap 4: https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
 
-We need a few things to set up our HTML code to use Bootstrap 
+We need a few things to set up our HTML code to use Bootstrap
+
+- 
+-
+-
+-
 
 # Div and div classes
 
