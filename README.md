@@ -144,9 +144,9 @@ Pre tag - Keeps the formatting for the text exactly the same including line brea
 
 Creating tables in HTML requires a few tags
 
-table class (Bootstrap) - 
+table class (Bootstrap) - Creates a custom style for the table tag
 
-(table) - 
+(table) - Table tag used to create a table.
 
 (thead) - Contains the metadata for a table
 
@@ -230,5 +230,9 @@ table class (Bootstrap) -
     </body>
 </html>
 ```
+
+# Homework for this Week
+
+Create a page using html + bootstrap, Play around with bootstrap and create something for next week's lesson.
 
 
